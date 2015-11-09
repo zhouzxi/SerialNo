@@ -20,14 +20,14 @@ typedef signed   int        INT32;
 // 时间信息结构体
 typedef struct
 {
- UINT8   second;           /* 0-59 */
- UINT8   minute;           /* 0-59 */
- UINT8   hour;             /* 0-23 */
- UINT8   day;              /* 1-31 */
- UINT8   month;            /* 1-12 */
- UINT16  year;             /* 1994-2099 */
- UINT8   week;             /* 1-7 */
- UINT8   Count10ms;        /* 0-99 */
+    UINT8   second;           /* 0-59 */
+    UINT8   minute;           /* 0-59 */
+    UINT8   hour;             /* 0-23 */
+    UINT8   day;              /* 1-31 */
+    UINT8   month;            /* 1-12 */
+    UINT16  year;             /* 1994-2099 */
+    UINT8   week;             /* 1-7 */
+    UINT8   Count10ms;        /* 0-99 */
 } ClockStruc;
 
 // 函数声明
